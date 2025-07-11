@@ -1,0 +1,28 @@
+services:
+  - type: web
+    name: alexai
+    env: node
+    plan: free
+    buildCommand: |
+      cd client && npm install && npm run build
+      cd ../server && npm install
+    startCommand: cd server && node index.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: CLIENT_URL
+        value: https://alexai.onrender.com
+      - key: VITE_API_URL
+        value: https://alexai.onrender.com
+      - key: MONGO
+        sync: false
+      - key: IMAGE_KIT_ENDPOINT
+        sync: false
+      - key: IMAGE_KIT_PUBLIC_KEY
+        sync: false
+      - key: IMAGE_KIT_PRIVATE_KEY
+        sync: false
+      - key: CLERK_SECRET_KEY
+        sync: false
