@@ -1,0 +1,21 @@
+
+Way to start or hello the world from reactnative:
+
+
+PS C:\Users\Dell\Desktop\react_native_expo_revision> npx create-expo-app@latest .   
+Creating an Expo project using the default template.
+
+To choose from all available templates (https://github.com/expo/expo/tree/main/templates) pass in the --template arg:
+  $ npx create-expo-app --template
+
+To choose from all available examples (https://github.com/expo/examples) pass in the --example arg:
+  $ npx create-expo-app --example
+
+√ Downloaded and extracted project files.
+> npm install
+
+To run your project, run one of the following npm commands.
+
+- npm run android
+- npm run ios     #  need to use macOS or iphone simulator  
+- npm run web
