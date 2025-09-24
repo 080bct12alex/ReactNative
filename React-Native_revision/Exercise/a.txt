@@ -1,0 +1,1 @@
+exercise of corecomponent ,styling ,layout , dynamic ui
