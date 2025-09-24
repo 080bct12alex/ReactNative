@@ -1,0 +1,4 @@
+use window dimension prefered 
+for responsive in all devices  over dimensionAPI 
+as dimensionAPI need reload or using custom useeffect  hook to put chnage in dimenmsion
+ if device orientation changes
